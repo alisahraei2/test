@@ -1,0 +1,250 @@
+@font-face {
+	font-family:bhoma;
+	src:url(BHoma.woff);
+}
+@font-face {
+	font-family: maccrap;
+	src:url(maccrap asphalt II PERSONAL USE.otf);
+}
+body {
+	background-color: #C6CACB;
+	font-family: bhoma, maccrap;
+	/*position: absolute;*/
+	margin: 0;
+	padding: 0;
+}
+label span {
+	direction: rtl;
+	margin: 5px;
+}
+input {
+	background-color: #D6D6D6;
+	font-family: bhoma, maccrap;
+	height: 30px;
+	font-size: 20px;
+	padding: 3px;
+	border-radius: 10px;
+}
+button {
+	border-color: #A3ABA6;
+	border-radius: 10px;
+}
+div.login div button {
+	background-color: #D6D6D6;
+}
+div.list div {
+	margin: 10px;
+}
+th, td {
+	border: 1px solid #dddddd;
+	padding: 10px;
+	font-size: 25px;
+}
+tr:nth-child(even) {
+    background-color: #CCD1CE;
+}
+table {
+	direction: rtl !important;
+	border-collapse: collapse;
+	min-width: 100%;
+	border-radius: 10px;
+	margin: 4px;
+}
+a {
+	text-decoration: none;
+}
+.result {
+	border: 2px groove;
+	border-collapse: collapse;
+	/*background-color: ;*/
+	display: none;
+	margin: 5px;
+	padding: 5px;
+	text-align: center !important;
+	height: auto;
+	font-size: 25px;
+	border-radius: 10px;
+}
+.green {
+	display: inline-block;
+	color: green;
+	background-color: #C1C3C4;
+	transform: translate(+117%, +10%);
+}
+.red {
+	display: inline-block;
+	color: red;
+	background-color: #C1C3C4;
+	transform: translate(+24%, +10%);
+}
+.m-weigh {
+	min-width: 300px;
+}
+#l-menu {
+	border: 3px groove #6BA6AD;
+	/*direction: rtl !important;*/
+	border-top: none;
+	border-radius: 10px;
+}
+#in-email {
+	width: 350px;
+}
+#email {
+	text-align: center;
+}
+#edit {
+	background-color: #20F01D;
+	min-width: 60%;
+}
+#delete {
+	background-color: #FE0F04;
+	min-width: 35%;
+}
+.set {
+	background-color: #20F01D;
+}
+.center {
+	text-align: center !important;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+.open {
+	border-left: 4px groove #6BA6AD;
+	border-right: 4px groove #6BA6AD;
+	text-align: center;
+	background-color: #C1C3C4;
+	min-width: 400px;
+	border-radius: 10px;
+}
+.login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.log-logo {
+	margin-bottom: 10px;
+	text-align: center;
+}
+.user {
+	margin: 10px;
+	width:70%;
+	text-align: right;
+}
+.pass {
+	margin: 10px;
+	width: 70%;
+	text-align: right;
+}
+.log {
+	font-family: bhoma, maccrap;
+	width: auto;
+	height: auto;
+	font-size: 30px;
+	margin: 10px;
+	border-radius: 10px;
+}
+.list-number {
+	border: 4px groove #6BA6AD;
+	padding: 10px;
+	font-size: 40px;
+	margin:auto;
+	max-width: 85%;
+	direction: rtl;
+	border-radius: 10px;
+}
+.bo-list {
+	font-family: bhoma, maccrap;
+	width: auto;
+	height: auto;
+	font-size: 25px;
+	text-align: center;
+	padding: 5px;
+}
+.head {
+	margin-top: 100px !important;
+	margin: auto;
+	max-width: 80%;
+}
+.header {
+	border: 4px groove #6BA6AD;
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+	max-width: 20%;
+	margin:auto;
+/*	border-bottom: none !important;*/
+	margin-top: 100px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.table {
+	border: 4px groove #6BA6AD;
+	padding: 10px;
+	font-size: 30px
+	border-radius: 10px;
+}
+.menu {
+  width: 51px;
+  background: #C6CACB;
+  position: absolute;
+  right: 1px;
+  z-index: 1200;	
+  top: 300px;
+}
+.im-menu {
+	height: 51px;
+	width: 51px;
+	padding: 0;
+	margin: 0;
+}
+.th {
+	text-align: center;
+	max-width: 70%;
+	margin-right: auto;
+	border-right: 2px solid #6BA6AD;
+	border-radius: 10px;
+}
+.b-style {
+	font-family: bhoma, maccrap;
+	background-color: #D6D6D6;
+	font-size: 25px;
+	margin: 10px;
+	padding: 7px;
+	text-align: center;
+}
+.td {
+	padding: 5px;
+	margin: 10px;
+	font-size: 20px;
+	font-family: bhoma, maccrap;
+}
+.button {
+	text-align: center;
+	margin-left: auto;
+	max-width: 30%;
+}
+.input {
+	margin-right: auto;
+	border-right: 2px solid #6BA6AD;
+	max-width: 70%;
+	border-radius: 10px;
+}
+.in-right {
+	margin-left: auto !important;
+	max-width: 50%;
+}
+.in-left {
+	margin-right: auto !important;
+	max-width: 50%;
+}
+.list {
+	border-right: 2px solid #6BA6AD;
+	max-width: 70%;
+	font-size: 20px;
+	border-radius: 10px;
+}
